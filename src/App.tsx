@@ -27,7 +27,7 @@ function App() {
             value={cell}>
             </input>
           {idx<cells.length-1&&
-          <span onClick={() => handleClicked(idx)}>+</span>}
+          <span className="add" onClick={() => handleClicked(idx)}></span>}
           </div>
         ))}
       </div>    
