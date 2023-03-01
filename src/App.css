@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.cells{
+  display: flex;
+  justify-content: center;
+}
+.cell{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell input{
+  width:10px;
+  background: none;
+  color: white;
+  border: 1px dashed grey;
+  cursor: pointer;
+
+}
